@@ -19,3 +19,14 @@ urlpatterns = [
     path("upload/", StudentBulkUploadView.as_view(), name="student-upload"),
     path("download-csv/", DownloadCSVViewdownloadcsv.as_view(), name="download-csv"),
 ]
+
+# StudentDeleteView,
+#     StudentDetailView,
+#     StudentListView,
+#     StudentUpdateView,
+
+#  path("create/", StudentCreateView.as_view(), name="student-create"),
+#     path("<int:pk>/update/", StudentUpdateView.as_view(), name="student-update"),
+#     path("delete/<int:pk>/", StudentDeleteView.as_view(), name="student-delete"),
+#     path("upload/", StudentBulkUploadView.as_view(), name="student-upload"),
+#     path("download-csv/", DownloadCSVViewdownloadcsv.as_view(), name="download-csv"),

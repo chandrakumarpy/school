@@ -97,3 +97,15 @@ class DownloadCSVViewdownloadcsv(LoginRequiredMixin, View):
 class StudentDeleteView(DeleteView):
     model = Student
     success_url = reverse_lazy("student-list")
+
+# from django.contrib.auth.mixins import LoginRequiredMixin
+# from django.contrib.messages.views import SuccessMessageMixin
+# from django.forms import widgets
+# from django.http import HttpResponse
+# from django.urls import reverse_lazy
+# from django.views.generic import DetailView, ListView, View
+# from django.views.generic.edit import CreateView, DeleteView, UpdateView
+
+# class StudentDeleteView(DeleteView):
+#     model = Student
+#     success_url = reverse_lazy("student-list")

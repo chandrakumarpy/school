@@ -49,3 +49,7 @@ class Student(models.Model):
 class StudentBulkUpload(models.Model):
     date_uploaded = models.DateTimeField(auto_now=True)
     csv_file = models.FileField(upload_to="students/bulkupload/")
+
+    # hai models
+    # one comment needed
+    
